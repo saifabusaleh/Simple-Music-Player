@@ -166,7 +166,7 @@ body {
     height: 10px;
     width: 7px;
     border: 0;
-    background: -webkit-linear-gradient(45deg,  rgb(213, 213, 213), rgb(193, 255, 6));
+    background: -webkit-linear-gradient(45deg, rgb(213, 213, 213), rgb(193, 255, 6));
     border-radius: 30px;
     cursor: pointer;
 }
