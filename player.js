@@ -39,6 +39,13 @@ song.addEventListener('ended', function(){
     nextSong();
 });
 
+// play/pause the music on the space key release
+document.addEventListener('keyup', (e) => {
+    if (e.keyCode === 32) {
+        playPause();
+    }
+});
+
 // function where songIndex is incremented, song/thumbnail image/background image/song artist/song title changes to next index value, and playPause() runs to play next track 
 function nextSong() {
     songIndex++;
